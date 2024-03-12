@@ -8,7 +8,7 @@ To use the graph plotter:
 - Enter the formula for the function you want to plot in the left panel (e.g., sin(x^2)).
 - Specify the variables used in the function (e.g., x).
 - Optionally, specify the boundaries for the variables' axes.
-- If no boundaries are specified, the chart will be plotted within the default range of [0, 1].
+- If no boundaries are specified, the chart will be plotted within the default range of [-1, 1].
 
 WARNINGS:
 - Lines 16 and 17 specify the window dimensions. Adjust these according to your preferences.
