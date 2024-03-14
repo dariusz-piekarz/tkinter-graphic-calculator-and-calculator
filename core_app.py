@@ -13,11 +13,9 @@ from Help_info import HelpInfo
 class Grapher(Share):
     __root = Tk()
     # Set up the root widget
-    __thisWidth = int(__root.winfo_screenwidth()*0.85)
-    __thisHeight = int(__root.winfo_screenheight()*0.85)
-    style = StyleClass() 
-    picture = figure() 
-    
+    style = StyleClass()
+    picture = figure()
+
     def __init__(self, **kwargs):
 
         try:

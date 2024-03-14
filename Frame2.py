@@ -16,8 +16,8 @@ class Frame2(Frame, Share):
         self.output_cell = str()
         self.inputs_cell()
         self.outputs_cell()
-        self.labels() 
-        self.buttons() 
+        self.labels()
+        self.buttons()
 
     def inputs_cell(self):
         self.input_cell = Entry(self, self.input_cell, font='Arial 28')
