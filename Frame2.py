@@ -16,7 +16,7 @@ class Frame2(Frame, Share):
         self.output_cell = str()
         self.inputs_cell()
         self.outputs_cell()
-        self.labels()
+        self.labels() 
         self.buttons() 
 
     def inputs_cell(self):
