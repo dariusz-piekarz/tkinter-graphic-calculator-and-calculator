@@ -1,4 +1,4 @@
-Application was created using the Tkinter module. Further changes are possible, including the regulation of the displayed window size.
+Application was created using the Tkinter module. Further changes are possible.
 
 The application consists of two tabs:
 1. Scientific Calculator: Performs regular arithmetic operations.
@@ -11,7 +11,6 @@ To use the graph plotter:
 - If no boundaries are specified, the chart will be plotted within the default range of [-1, 1].
 
 WARNINGS:
-- Lines 16 and 17 specify the window dimensions. Adjust these according to your preferences.
-- Lines 22 and 27 may require adjustments to the padx parameter.
+- Lines 22 and 27 of *Frame2.py* may require adjustments to the padx parameter.
 
 These potential issues will be addressed in future updates.
