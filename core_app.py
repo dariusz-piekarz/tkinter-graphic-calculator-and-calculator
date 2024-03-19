@@ -15,6 +15,8 @@ class Grapher(Share):
     # Set up the root widget
     style = StyleClass()
     picture = figure()
+    __thisWidth = int(__root.winfo_screenwidth()*0.87)
+    __thisHeight = int(__root.winfo_screenheight()*0.99)
 
     def __init__(self, **kwargs):
 

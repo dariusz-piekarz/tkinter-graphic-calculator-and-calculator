@@ -27,7 +27,7 @@ class CustomTheme(Toplevel, Share, metaclass=Nad):
             # parent is self.__root from the file core_app.py - to inherit properties of global app
             Toplevel.__init__(self, parent)
             self.title("Custom Theme")
-            self.geometry("300x150+{}+{}".format(parent.winfo_screenwidth()//2-150, parent.winfo_screenheight()//2-75))
+            self.geometry("400x150+{}+{}".format(parent.winfo_screenwidth()//2-150, parent.winfo_screenheight()//2-75))
             self.labels()
             self.entries()
             self.button_apply()

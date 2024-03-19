@@ -3,6 +3,8 @@ from tkinter.ttk import Entry, Label, Button
 from tkinter import Frame, END
 from string_var import calculator_symbols
 from math_fun_and_var import *
+from loguru import logger
+from math import *
 
 
 class Frame2(Frame, Share):
@@ -64,6 +66,7 @@ class Frame2(Frame, Share):
         button.grid(row=parameters[0]+self.dfty, column=parameters[1]+self.dftx, columnspan=parameters[2],
                     sticky=parameters[3], ipady=hight)
 
+    @logger.catch
     def buttons(self):
 
         for i in range(3):
